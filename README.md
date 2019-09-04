@@ -21,7 +21,7 @@ other technology used:
 
 how to install it?
 
-npm install express, mongoose and npm i to have all the packages.
+npm install express, mongoose, morgan  and npm i to have all the packages.
 
 to create a node module:
 
@@ -49,5 +49,5 @@ how it works:
 after installing all your packages that I have mentioned earlier then you open your command line to run the server.js
 
 you do npm start then you open the localhost 3000, then you can start scrapping . and save notes on it then it will return on your terminal like this
-![return](./public/images/Capture.PNG)
+![return](./public/image/Capture.PNG)
 

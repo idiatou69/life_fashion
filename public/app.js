@@ -8,7 +8,6 @@ $.getJSON("/articles", function(data) {
   }
 });
 
-
 // Whenever someone clicks a p tag
 $(document).on("click", "p", function() {
   // Empty the notes from the note section
