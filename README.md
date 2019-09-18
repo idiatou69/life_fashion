@@ -28,7 +28,7 @@ to create a node module:
 npm init -y
 
 
-#Getting Started with the life_fashion node command line application
+# Getting Started with the life_fashion node command line application
 WARNING: If you are not familiar with the bash/terminal this app may not be suitible for you but feel free to try anyways.
 
 Welcome user! So you want to use my command line node app? Okay! lets get started.
