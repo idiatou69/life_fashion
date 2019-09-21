@@ -126,7 +126,7 @@ app.post("/articles/:id", function(req, res) {
       res.json(err);
     });
 });
-
+ 
 app.delete("/note/:id",function(req, res){
   console.log(req.params.id)
   db.Note.findByIdAndDelete(req.params.id 
