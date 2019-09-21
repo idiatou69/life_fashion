@@ -129,7 +129,13 @@ app.post("/articles/:id", function(req, res) {
 
 app.delete("/note/:id",function(req, res){
   console.log(req.params.id)
-  db.Note.findOneAndRemove({_id: req.params.id
+  db.Note.findByIdAndDelete(req.params.id 
+ 
+  ,function(err){
+    if(err){
+      console.log(err);
+    }
+    
   })
 })
 // Start the server
